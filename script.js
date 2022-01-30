@@ -1,4 +1,3 @@
-/* VAI DA RUIM */
 function fetchPokemonImage(id){
     fetch(`https://pokeapi.co/api/v2/pokemon/${id}`)
       .then((res) => res.json())
